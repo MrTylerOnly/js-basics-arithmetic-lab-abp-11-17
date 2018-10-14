@@ -8,8 +8,9 @@ You should NOT try to redefine any of the above variables.
 
 // Write your code below this line!
 
-function getRandomInt(max) {
-  return Math.floor(Math.random() * Math.floor(max));
+
+function randomUserID() {
+  return Math.random();
 }
 
-let randomUserID = console.log(getRandomInt(1000000020));
+console.log(randomUserID());
