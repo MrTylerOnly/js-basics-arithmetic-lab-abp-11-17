@@ -12,4 +12,4 @@ function getRandomInt(max) {
   return Math.floor(Math.random() * Math.floor(max));
 }
 
-console.log(getRandomInt(1000000020));
+let randomUserID = console.log(getRandomInt(1000000020));
